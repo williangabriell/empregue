@@ -103,7 +103,7 @@ export default function VagasDisponiveis() {
         console.error("Erro ao carregar vagas do localStorage:", error);
       }
     }
-  }, []); // Executa uma vez no carregamento da página
+  }, [vagasDisponiveis]); // Executa uma vez no carregamento da página
 
   return (
     <>
